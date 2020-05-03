@@ -1,9 +1,4 @@
-<?php 
 
-include_once 'includes/config.php';
-
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -23,7 +18,7 @@ include_once 'includes/config.php';
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-    <title>Student | <?php echo $title; ?></title>
+    <title>Student | <?php echo $title; ?> </title>
   </head>
   <body>
 
@@ -97,7 +92,7 @@ include_once 'includes/config.php';
 <!-- header end   -->
 
 
-<!-- beadcrumb -->
+<!-- breadcrumb -->
 <section id="breadcrumb">
   <div class="container">
     <ol class="breadcrumb">
@@ -106,7 +101,7 @@ include_once 'includes/config.php';
     </ol>
   </div>
 </section>
-<!-- beadcrumb end -->
+<!-- breadcrumb end -->
 
 
 <!-- main start--> 
@@ -118,12 +113,16 @@ include_once 'includes/config.php';
       <!-- profile -->
 
       <div class="col-md-3">
+
         <?php echo $sidebar; ?>
+
       </div>
       <!-- main document -->
       <div class="col-md-9">
+
         <?php echo $main; ?>
-        </div>
+
+      </div>
   <!-- main end-->
 </section>
 
